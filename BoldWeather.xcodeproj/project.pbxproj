@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E0EED426E92238008A831A /* BoldWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0EED326E92238008A831A /* BoldWeatherApp.swift */; };
+		37E0EED626E92238008A831A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0EED526E92238008A831A /* ContentView.swift */; };
+		37E0EED826E92239008A831A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E0EED726E92239008A831A /* Assets.xcassets */; };
+		37E0EEDB26E92239008A831A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E0EEDA26E92239008A831A /* Preview Assets.xcassets */; };
+		37E0EEE626E92239008A831A /* BoldWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0EEE526E92239008A831A /* BoldWeatherTests.swift */; };
+		37E0EEF126E92239008A831A /* BoldWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0EEF026E92239008A831A /* BoldWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E0EEE226E92239008A831A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E0EEC826E92238008A831A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E0EECF26E92238008A831A;
+			remoteInfo = BoldWeather;
+		};
+		37E0EEED26E92239008A831A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E0EEC826E92238008A831A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E0EECF26E92238008A831A;
+			remoteInfo = BoldWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37E0EED026E92238008A831A /* BoldWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoldWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E0EED326E92238008A831A /* BoldWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldWeatherApp.swift; sourceTree = "<group>"; };
+		37E0EED526E92238008A831A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37E0EED726E92239008A831A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E0EEDA26E92239008A831A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37E0EEDC26E92239008A831A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E0EEE126E92239008A831A /* BoldWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoldWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E0EEE526E92239008A831A /* BoldWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldWeatherTests.swift; sourceTree = "<group>"; };
+		37E0EEE726E92239008A831A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E0EEEC26E92239008A831A /* BoldWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoldWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E0EEF026E92239008A831A /* BoldWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldWeatherUITests.swift; sourceTree = "<group>"; };
+		37E0EEF226E92239008A831A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E0EECD26E92238008A831A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0EEDE26E92239008A831A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0EEE926E92239008A831A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E0EEC726E92238008A831A = {
+			isa = PBXGroup;
+			children = (
+				37E0EED226E92238008A831A /* BoldWeather */,
+				37E0EEE426E92239008A831A /* BoldWeatherTests */,
+				37E0EEEF26E92239008A831A /* BoldWeatherUITests */,
+				37E0EED126E92238008A831A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E0EED126E92238008A831A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E0EED026E92238008A831A /* BoldWeather.app */,
+				37E0EEE126E92239008A831A /* BoldWeatherTests.xctest */,
+				37E0EEEC26E92239008A831A /* BoldWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E0EED226E92238008A831A /* BoldWeather */ = {
+			isa = PBXGroup;
+			children = (
+				37E0EED326E92238008A831A /* BoldWeatherApp.swift */,
+				37E0EED526E92238008A831A /* ContentView.swift */,
+				37E0EED726E92239008A831A /* Assets.xcassets */,
+				37E0EEDC26E92239008A831A /* Info.plist */,
+				37E0EED926E92239008A831A /* Preview Content */,
+			);
+			path = BoldWeather;
+			sourceTree = "<group>";
+		};
+		37E0EED926E92239008A831A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37E0EEDA26E92239008A831A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37E0EEE426E92239008A831A /* BoldWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E0EEE526E92239008A831A /* BoldWeatherTests.swift */,
+				37E0EEE726E92239008A831A /* Info.plist */,
+			);
+			path = BoldWeatherTests;
+			sourceTree = "<group>";
+		};
+		37E0EEEF26E92239008A831A /* BoldWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E0EEF026E92239008A831A /* BoldWeatherUITests.swift */,
+				37E0EEF226E92239008A831A /* Info.plist */,
+			);
+			path = BoldWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E0EECF26E92238008A831A /* BoldWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E0EEF526E92239008A831A /* Build configuration list for PBXNativeTarget "BoldWeather" */;
+			buildPhases = (
+				37E0EECC26E92238008A831A /* Sources */,
+				37E0EECD26E92238008A831A /* Frameworks */,
+				37E0EECE26E92238008A831A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoldWeather;
+			productName = BoldWeather;
+			productReference = 37E0EED026E92238008A831A /* BoldWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E0EEE026E92239008A831A /* BoldWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E0EEF826E92239008A831A /* Build configuration list for PBXNativeTarget "BoldWeatherTests" */;
+			buildPhases = (
+				37E0EEDD26E92239008A831A /* Sources */,
+				37E0EEDE26E92239008A831A /* Frameworks */,
+				37E0EEDF26E92239008A831A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E0EEE326E92239008A831A /* PBXTargetDependency */,
+			);
+			name = BoldWeatherTests;
+			productName = BoldWeatherTests;
+			productReference = 37E0EEE126E92239008A831A /* BoldWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E0EEEB26E92239008A831A /* BoldWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E0EEFB26E92239008A831A /* Build configuration list for PBXNativeTarget "BoldWeatherUITests" */;
+			buildPhases = (
+				37E0EEE826E92239008A831A /* Sources */,
+				37E0EEE926E92239008A831A /* Frameworks */,
+				37E0EEEA26E92239008A831A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E0EEEE26E92239008A831A /* PBXTargetDependency */,
+			);
+			name = BoldWeatherUITests;
+			productName = BoldWeatherUITests;
+			productReference = 37E0EEEC26E92239008A831A /* BoldWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E0EEC826E92238008A831A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					37E0EECF26E92238008A831A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					37E0EEE026E92239008A831A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 37E0EECF26E92238008A831A;
+					};
+					37E0EEEB26E92239008A831A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 37E0EECF26E92238008A831A;
+					};
+				};
+			};
+			buildConfigurationList = 37E0EECB26E92238008A831A /* Build configuration list for PBXProject "BoldWeather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E0EEC726E92238008A831A;
+			productRefGroup = 37E0EED126E92238008A831A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E0EECF26E92238008A831A /* BoldWeather */,
+				37E0EEE026E92239008A831A /* BoldWeatherTests */,
+				37E0EEEB26E92239008A831A /* BoldWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E0EECE26E92238008A831A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E0EEDB26E92239008A831A /* Preview Assets.xcassets in Resources */,
+				37E0EED826E92239008A831A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0EEDF26E92239008A831A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0EEEA26E92239008A831A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E0EECC26E92238008A831A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E0EED626E92238008A831A /* ContentView.swift in Sources */,
+				37E0EED426E92238008A831A /* BoldWeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0EEDD26E92239008A831A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E0EEE626E92239008A831A /* BoldWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E0EEE826E92239008A831A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E0EEF126E92239008A831A /* BoldWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E0EEE326E92239008A831A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E0EECF26E92238008A831A /* BoldWeather */;
+			targetProxy = 37E0EEE226E92239008A831A /* PBXContainerItemProxy */;
+		};
+		37E0EEEE26E92239008A831A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E0EECF26E92238008A831A /* BoldWeather */;
+			targetProxy = 37E0EEED26E92239008A831A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37E0EEF326E92239008A831A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37E0EEF426E92239008A831A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E0EEF626E92239008A831A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BoldWeather/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BoldWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paolinsky.BoldWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E0EEF726E92239008A831A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BoldWeather/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BoldWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paolinsky.BoldWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37E0EEF926E92239008A831A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoldWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paolinsky.BoldWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoldWeather.app/BoldWeather";
+			};
+			name = Debug;
+		};
+		37E0EEFA26E92239008A831A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoldWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paolinsky.BoldWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoldWeather.app/BoldWeather";
+			};
+			name = Release;
+		};
+		37E0EEFC26E92239008A831A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoldWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paolinsky.BoldWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoldWeather;
+			};
+			name = Debug;
+		};
+		37E0EEFD26E92239008A831A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoldWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Paolinsky.BoldWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoldWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E0EECB26E92238008A831A /* Build configuration list for PBXProject "BoldWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E0EEF326E92239008A831A /* Debug */,
+				37E0EEF426E92239008A831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E0EEF526E92239008A831A /* Build configuration list for PBXNativeTarget "BoldWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E0EEF626E92239008A831A /* Debug */,
+				37E0EEF726E92239008A831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E0EEF826E92239008A831A /* Build configuration list for PBXNativeTarget "BoldWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E0EEF926E92239008A831A /* Debug */,
+				37E0EEFA26E92239008A831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E0EEFB26E92239008A831A /* Build configuration list for PBXNativeTarget "BoldWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E0EEFC26E92239008A831A /* Debug */,
+				37E0EEFD26E92239008A831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E0EEC826E92238008A831A /* Project object */;
+}
