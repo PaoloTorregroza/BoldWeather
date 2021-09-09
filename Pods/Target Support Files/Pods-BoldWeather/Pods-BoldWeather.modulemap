@@ -1,0 +1,6 @@
+module Pods_BoldWeather {
+  umbrella header "Pods-BoldWeather-umbrella.h"
+
+  export *
+  module * { export * }
+}
